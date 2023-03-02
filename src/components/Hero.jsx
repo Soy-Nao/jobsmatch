@@ -6,7 +6,7 @@ import vector from '../assets/images/vector.png'
 
 const Hero = () => {
   return (
-    <section className="max-w-5xl h-[90vh] grid grid-cols-1 md:grid-cols-8">
+    <section className="max-w-5xl h-[90vh] grid grid-cols-1 md:grid-cols-8  justify-items-center">
       {/*Information */}
       <div className=" md:col-span-5 flex items-center justify-center p-4 md:p-16 pt-1">
         <div>
@@ -18,7 +18,7 @@ const Hero = () => {
             Crea tu perfil en menos de 5 minutos y postúlate solo presionando{" "}
             <span className="text-verde">ME GUSTA</span>.{" "}
           </p>
-          <div className="hidden ms:visible ms:flex pt-4">
+          <div className="hidden md:visible md:flex pt-4">
             <div className="mt-[50px] img-none bg-gradient-to-r from-primary via-secundary w-[280px] h-[280px] rounded-full">
             </div>
             <img className="absolute ml-[40px] w-[180px] "  src={mujerHero} alt="" />

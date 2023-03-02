@@ -4,7 +4,7 @@ import logoPlayStore from '../assets/images/logo-play-store.png'
 
 const Footer = () => {
   return (
-    <section className='flex flex-col justify-center items-center p-8'>
+    <section className='flex flex-col md:flex-row justify-center items-center p-8'>
         <div>
             <h2 className='text-primary text-5xl font-bold'>Descargala YA</h2>
             <p className='text-2xl'>Y has <span className='text-secundary'>match</span>  con tu <br /> trabajo ideal en <br /> Tecnología</p>

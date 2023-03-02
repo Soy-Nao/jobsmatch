@@ -6,8 +6,8 @@ import Plans from "./components/Plans"
 
 function App() {
   return ( 
-    //<div className="flex flex-col items-center justify-center "></div>
-    <div>
+    <div className="flex flex-col items-center justify-center ">
+    
       <Header />
       <Hero />
       <Benefits />
