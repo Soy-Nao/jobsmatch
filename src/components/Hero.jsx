@@ -12,14 +12,14 @@ const Hero = () => {
         <div>
           <h1 className="text-4xl font-bold pb-6 text-negro">
             <span className="text-primary">Postúlate</span> rápido y ahorra
-            tiempo en tu búsqueda en tu nuevo trabajo en Tecnología
+            tiempo en la búsqueda de tu nuevo trabajo en Tecnología
           </h1>
           <p className="text-1xl font-bold">
             Crea tu perfil en menos de 5 minutos y postúlate solo presionando{" "}
             <span className="text-verde">ME GUSTA</span>.{" "}
           </p>
           <div className="flex pt-4">
-            <div className="mt-[50px] bg-gradient-to-r from-primary via-secundary w-[280px] h-[280px] rounded-full">
+            <div className="mt-[50px] img-none bg-gradient-to-r from-primary via-secundary w-[280px] h-[280px] rounded-full">
             </div>
             <img className="absolute ml-[40px] w-[180px] "  src={mujerHero} alt="" />
           </div>
